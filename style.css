@@ -1,3 +1,10 @@
+body{
+    margin: 0;
+}
+{
+    boxing-size
+}
+
 #top-header{
     display: flex;
     gap: 50px;
@@ -29,18 +36,79 @@
     padding: 0px 70px;
     background-color: #074880;
 }
-#buttom-nav a{
+#bottom-nav a{
     text-decoration: none;
     padding: 12px 18px;
     color: #c4d82e;
     text-transform: uppercase;
     display: inline-block;
 }
-#buttom-nav a:hover{
+#bottom-nav a:hover{
     background-color: #c4d82e;
     color: #074880;
 }
 /*main*/
+/*intro section*/
+
+#intro{
+    padding: 0px 70px;
+    position: relative;
+
+}
+#intro img{
+    width: 100%;
+}
+#intro div{
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+}
+#intro div p{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    margin: 0%;
+    width: max-content;
+    padding-right: 30px;
+}
+#intro div a{
+    background-color: whitesmoke;
+    color: black;
+    padding: 8px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+}
+#intro div a:hover{
+    text-decoration: underline #074880;
+}
+#news{
+    display: flex;
+    border: 200px;
+    width: 100vw;
+}
+#news h2{
+    color: aqua;
+}
+#news img{
+    width: 270px;
+}
+#latest{
+    width: 70%;
+    border: 2px solid red;
+}
+#awards{
+    width: 30%;
+    border: 2px solid green;
+}
+#scrollable{
+    display: flex;
+    overflow-x: scroll;
+    list-style: none;
+}
+.news-item{
+    padding: 10px;
+}
 
 /*footer*/
 
